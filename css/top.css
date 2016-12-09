@@ -1,0 +1,20 @@
+.box {
+	width: 1190px;
+	
+	/* 2个值 上下为0px 左右为自动调节 */
+	margin: 0px auto;
+}
+#btn {
+	width: 40px;
+	height: 40px;
+	display: none;
+	/* fixed基于浏览器定位*/
+	position: fixed;
+	left: 50%;
+	margin-left: 610px;
+	bottom: 30px;
+	background: url(../img/top_bg.png) no-repeat left top;
+}
+#btn:hover {
+	background: url(../img/top_bg.png) no-repeat left -40px;
+}
